@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "rjmodlib",
+  "version": "${version}",
+  "name": "RainbowJuiceModLib",
+  "description": "Mod lib for Minecraft By Rainbow Juice",
+  "authors": [
+    "RainbowJuice"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rjmodlib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.rainbowjuice.modlib.client.RainbowJuiceModLib"
+    ],
+    "main": [
+      "org.rainbowjuice.modlib.RainbowJuiceModLib"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
